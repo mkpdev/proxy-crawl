@@ -1,0 +1,25 @@
+<div class="card text-center">
+  <div class='card-header'>
+    <h2> <%= @twitter_profile["name"] %> </h2>
+  </div>
+  <div class='card-body'>
+    <% @twitter_profile.each do |key, value| %>
+      <div class='row'>
+        <div class='col-2'>
+          <strong> <%= key %> </strong>
+        </div>
+        <div class='col-10'>
+          <%= value %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <div class='card-footer'>
+    <div class='row'>
+      <div class='col-12'>
+        <%= link_to 'Home', root_path, class: 'btn btn-outline-primary mr-3' %>
+        <%= link_to 'Back', :back, class: 'btn btn-outline-dark' %>
+      </div>
+    </div>
+  </div>
+</div>

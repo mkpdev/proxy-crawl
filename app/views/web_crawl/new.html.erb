@@ -1,0 +1,27 @@
+<div class="card">
+  <div class='card-header'>
+    Crawl Twitter Profile
+  </div>
+  <div class='card-body'>
+    <%= form_tag(crawl_web_crawl_index_path, method: :post) do %>
+      <div class='form-group row'>
+        <div class='col-md-6'>
+          <%= label_tag :twitter_url, 'Twitter URL', class: 'font-weight-bold' %>
+          <%= text_field_tag :twitter_url, '', class: 'form-control', required: true %>
+        </div>
+      </div>
+
+      <div class='form-group row'>
+        <div class='col-md-6'>
+          <%= label_tag :api_token, 'API Token', class: 'font-weight-bold' %>
+          <%= text_field_tag :api_token, '', class: 'form-control', required: true %>
+        </div>
+      </div>
+
+      <div class='actions'>
+        <%= submit_tag "Submit" %>
+      </div>
+    <% end %>
+  </div>
+
+</div>
