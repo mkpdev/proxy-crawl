@@ -1,0 +1,8 @@
+DEV_DATABASE_NAME       : < your developent database name >
+DEV_DATABASE_USERNAME   : < your database username >
+DEV_DATABASE_PASSWORD   : < your database password >
+TEST_DATABASE_NAME      : < your test database name >
+PROD_DATABASE_NAME      : < your production database name >
+PROD_DATABASE_USERNAME  : < production database username >
+PROD_DATABASE_PASSWORD  : < production database password >
+JWT_SECRET_KEY          : 7540adf812dfdd168d17653081bc68e461a40b2ac8c848cf00e56f487b179592de3cd688398d09d4b8ea05d2d97b54ef761e7cc19b212ee4e9f642777e238969
