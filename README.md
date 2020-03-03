@@ -5,20 +5,12 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.6.5
 
-* System dependencies
+* Rails version 5.2.0
 
-* Configuration
+* Run rails server
 
-* Database creation
+* Scrapped twitter profiles is on public directory.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* We can also save the records on to database.
